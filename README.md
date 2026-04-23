@@ -1,59 +1,68 @@
-# firstattempt2026_banaag
+Banaag
+Project Details
+Framework: Nuxt JS
+Module: Alumni Hub: Document Request
+1. Prerequisites
 
-### Framework Assigned: 
-Nuxt JS
+Before running the project, make sure the following tools are installed:
 
-### Module:
-Alumni Portal: Document Request
+Install Node.js
 
-##  Installation
-1. **Clone the repository:**
-   `git clone https://github.com/Ybanaag/firstattempt2026_banaag.git`
-2. **Navigate to the folder:**
-   `cd firstattempt2026_banaag`
-3. **Install dependencies:**
-   `npm install`
-4. **Run the application:**
-   `npm start` (or `npm run dev`)
+Download from: https://nodejs.org/
 
-##  AI Tools Used
-* **Primary AI:** [Gemini]
-* **Supporting AI:** [ChatGPT]
+Install the LTS (Long-Term Support) version.
 
-## ⌨️ The "First Prompt"
-> Act as a Senior Nuxt 3 Developer and build a structured Alumni Hub mobile app using Tailwind CSS.
+Verify installation:
 
-Structure:
+node -v
+npm -v
+2. Create the Project
+npx nuxi@latest init alumni-hub
+cd alumni-hub
+npm install
+3. Run the Development Server
+npm run dev
+
+Open in browser:
+
+http://localhost:3000
+4. Project Structure
+layouts/
+  default.vue
 
 pages/
-index.vue – Blue Knight login/splash
-alumni/dashboard.vue – Main hub with tabs: Request & Status
-alumni/request-guide.vue – “Help me choose” (Work, Abroad, Board Exam)
+  index.vue
+  alumni/
+    dashboard.vue
+    request-guide.vue
 
-Design:
+components/
+  AppHeader.vue
+  StatusCard.vue
 
-Colors: Jesuit Red (#8B0000), Royal Blue (#003366)
-Mobile-first, rounded (2xl), shadow-sm cards
+app.vue
+5. UI/UX Specifications
+Branding
+Primary Color: Jesuit Red (#8B0000)
+Secondary Color: Royal Blue (#003366)
+Design
+Mobile-first layout
+Rounded corners (2xl)
+shadow-sm cards
+6. Features
+Tab switching in dashboard.vue
+(Request History / New Requests)
+Biometric Verification button (with success overlay simulation)
+Lucide / Nuxt Icons for navigation
+<NuxtLink> for seamless page transitions
+<NuxtPage /> in app.vue for routing
+7. AI Tools Used
+ChatGPT – Architecture & code generation
+GitHub Copilot – Refinement & fixes
+8. Prompt
 
-Features:
+Pretend you are a Senior Nuxt 3 Developer at Ateneo de Davao University. You are tasked to build a mobile-first Alumni Hub web application for document requests. Follow the given structure and UI/UX specifications. Use Tailwind CSS for styling, Nuxt routing for navigation, and ensure all pages are seamlessly connected. Implement dashboard tabs, biometric verification simulation, and a guided request interface. The design should follow Jesuit Red and Royal Blue branding and use a modern card-based UI.
 
-Tab switching (Request History / New Requests)
-Biometric verification button with success overlay
-Lucide/Nuxt Icons for navigation
-Use <NuxtLink> for routing
-Include <NuxtPage /> in app.vue
+9. Screenshots
 
-Suggested Structure:
-
-layouts/default.vue
-pages/index.vue
-pages/alumni/index.vue
-pages/alumni/guide.vue
-components/AppHeader.vue, StatusCard.vue
-
-## 📸 Screenshots
-![Main Dashboard](link-to-your-screenshot1.png)
-*Figure 1: The main dashboard showcasing the web adaptation of the design.*
-
-![Mobile View](link-to-your-screenshot2.png)
-*Figure 2: Responsive mobile view of the application.*
+(Insert screenshots here)
