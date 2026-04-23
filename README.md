@@ -1,4 +1,4 @@
-# <Banaag>
+# Banaag
 
 ### Framework Assigned: Nuxt JS
 
