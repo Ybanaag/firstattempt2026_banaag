@@ -18,7 +18,7 @@ Alumni Portal: Document Request
 
 ##  AI Tools Used
 * **Primary AI:** [Gemini]
-* **Supporting AI:** [Gemini]
+* **Supporting AI:** [ChatGPT]
 
 ## ⌨️ The "First Prompt"
 > Act as a Senior Nuxt 3 Developer and build a structured Alumni Hub mobile app using Tailwind CSS.
