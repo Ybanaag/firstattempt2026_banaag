@@ -1,68 +1,51 @@
-Banaag
-Project Details
-Framework: Nuxt JS
-Module: Alumni Hub: Document Request
-1. Prerequisites
+# 🛡️ Blue Knight Alumni Portal
+### Activity #10: High-Fidelity Prototype Sprint
 
-Before running the project, make sure the following tools are installed:
+**Developer:** Banaag, Yuri  
+**Framework:** Nuxt JS (Vue.js 3)  
+**Styling:** Tailwind CSS  
+**Section:** 4-111 (MW 9:00AM - 10:30AM)
 
-Install Node.js
+---
 
-Download from: https://nodejs.org/
+## 📸 Final Prototype Preview
+> **Theme:** Blue Knight Branding (Royal Blue & Jesuit Red)  
+> **Visual Design:** Curved headers, modern input fields, and "Help me choose" guide cards.
 
-Install the LTS (Long-Term Support) version.
+| Login Screen | Document Request Hub | Request History |
+| :--- | :--- | :--- |
+| ![Login](https://img.shields.io/badge/Branding-Royal_Blue-003366) | ![Guide](https://img.shields.io/badge/Logic-Help_Me_Choose-8B0000) | ![Status](https://img.shields.io/badge/Status-Verified-green) |
 
-Verify installation:
+---
 
-node -v
-npm -v
-2. Create the Project
-npx nuxi@latest init alumni-hub
-cd alumni-hub
-npm install
-3. Run the Development Server
-npm run dev
+## 📖 User Story Implementation
 
-Open in browser:
+### 1. Login & Identity Verification
+* **Objective:** Secure access for legitimate alumni.
+* **Features:** Modern "Blue Knight" UI, Student Number verification, and password protection.
+* **Visuals:** Centered ADDU logo with a Jesuit Red border.
 
-http://localhost:3000
-4. Project Structure
-layouts/
-  default.vue
+### 2. "Help Me Choose" Guide
+* **Intent:** As an applicant unsure of terminology, I want a guide based on my intent (Work, Abroad, Board Exam).
+* **Selection Cards:**
+  * **Employment/Work:** Job applications/verification.
+  * **Abroad/DFA:** International authentication.
+  * **Board Exam (PRC):** Professional licensure requirements.
+  * **Graduate School:** Master's or Doctoral applications.
 
-pages/
-  index.vue
-  alumni/
-    dashboard.vue
-    request-guide.vue
+### 3. Chronological History Log
+* **Tracking:** A full list of past requests.
+* **Badges:** Success labels with "Verified" status in Jesuit branding colors.
 
-components/
-  AppHeader.vue
-  StatusCard.vue
+---
 
-app.vue
-5. UI/UX Specifications
-Branding
-Primary Color: Jesuit Red (#8B0000)
-Secondary Color: Royal Blue (#003366)
-Design
-Mobile-first layout
-Rounded corners (2xl)
-shadow-sm cards
-6. Features
-Tab switching in dashboard.vue
-(Request History / New Requests)
-Biometric Verification button (with success overlay simulation)
-Lucide / Nuxt Icons for navigation
-<NuxtLink> for seamless page transitions
-<NuxtPage /> in app.vue for routing
-7. AI Tools Used
-ChatGPT – Architecture & code generation
-GitHub Copilot – Refinement & fixes
-8. Prompt
-
-Pretend you are a Senior Nuxt 3 Developer at Ateneo de Davao University. You are tasked to build a mobile-first Alumni Hub web application for document requests. Follow the given structure and UI/UX specifications. Use Tailwind CSS for styling, Nuxt routing for navigation, and ensure all pages are seamlessly connected. Implement dashboard tabs, biometric verification simulation, and a guided request interface. The design should follow Jesuit Red and Royal Blue branding and use a modern card-based UI.
-
-9. Screenshots
-
+## 📂 Project Directory
+```text
+📁 firstattempt2026_banaag
+├── 📁 assets/css/main.css    # Custom Jesuit Red/Blue Design System
+├── 📁 pages/
+│   ├── index.vue             # Login Screen (Welcome, Blue Knight)
+│   └── alumni.vue            # Two-Tabbed Main Portal (Seamless Switch)
+├── 📄 app.vue                # Main Entry (NuxtPage Connector)
+└── 📄 nuxt.config.ts         # Nuxt JS & Tailwind Configuration
 (Insert screenshots here)
