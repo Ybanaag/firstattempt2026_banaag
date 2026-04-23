@@ -10,10 +10,13 @@
    ``` text
    `git clone https://github.com/Ybanaag/firstattempt2026_banaag.git`
 3. **Navigate to the folder:**
+   ```
    `cd firstattempt2026_banaag`
-4. **Install dependencies:**
+5. **Install dependencies:**
+   ```
    `npm install`
-5. **Run the application:**
+7. **Run the application:**
+   ```
    `npm start` (or `npm run dev`)
 
 ## 🤖 AI Tools Used
