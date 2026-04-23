@@ -41,11 +41,5 @@
 
 ## 📂 Project Directory
 ```text
-📁 firstattempt2026_banaag
-├── 📁 assets/css/main.css    # Custom Jesuit Red/Blue Design System
-├── 📁 pages/
-│   ├── index.vue             # Login Screen (Welcome, Blue Knight)
-│   └── alumni.vue            # Two-Tabbed Main Portal (Seamless Switch)
-├── 📄 app.vue                # Main Entry (NuxtPage Connector)
-└── 📄 nuxt.config.ts         # Nuxt JS & Tailwind Configuration
+npm -v
 (Insert screenshots here)
