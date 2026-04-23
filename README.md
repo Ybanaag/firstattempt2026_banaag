@@ -1,10 +1,10 @@
 # firstattempt2026_banaag
 
 ### Framework Assigned: 
-<eNuxt JS>
+Nuxt JS
 
 ### Module:
-<Alumni Portal: Document Request>
+Alumni Portal: Document Request
 
 ##  Installation
 1. **Clone the repository:**
