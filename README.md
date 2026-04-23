@@ -8,7 +8,7 @@ Alumni Portal: Document Request
 
 ##  Installation
 1. **Clone the repository:**
-   `git clone https://github.com/yourusername/firstattempt2026_banaag.git`
+   `git clone https://github.com/Ybanaag/firstattempt2026_banaag.git`
 2. **Navigate to the folder:**
    `cd firstattempt2026_banaag`
 3. **Install dependencies:**
