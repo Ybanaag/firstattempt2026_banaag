@@ -8,17 +8,17 @@ Alumni Portal: Document Request
 
 ##  Installation
 1. **Clone the repository:**
-   `git clone https://github.com/yourusername/firstattempt2026_lastname.git`
+   `git clone https://github.com/yourusername/firstattempt2026_banaag.git`
 2. **Navigate to the folder:**
-   `cd firstattempt2026_lastname`
+   `cd firstattempt2026_banaag`
 3. **Install dependencies:**
    `npm install`
 4. **Run the application:**
    `npm start` (or `npm run dev`)
 
 ##  AI Tools Used
-* **Primary AI:** [e.g., Gemini 1.5 Pro]
-* **Supporting AI:** [e.g., Claude 3.5 Sonnet for debugging]
+* **Primary AI:** [Gemini]
+* **Supporting AI:** [Gemini]
 
 ## ⌨️ The "First Prompt"
 > Act as a Senior Nuxt 3 Developer and build a structured Alumni Hub mobile app using Tailwind CSS.
